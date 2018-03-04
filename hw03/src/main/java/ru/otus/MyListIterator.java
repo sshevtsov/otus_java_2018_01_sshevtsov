@@ -3,9 +3,9 @@ package ru.otus;
 import java.util.ListIterator;
 import java.util.NoSuchElementException;
 
-public class MyListIterator<T> implements ListIterator<T> {
-    int cursor;
-    MyArrayList<T> list;
+class MyListIterator<T> implements ListIterator<T> {
+    private int cursor;
+    private MyArrayList<T> list;
 
     public MyListIterator(MyArrayList<T> list, int index) {
         this.list = list;

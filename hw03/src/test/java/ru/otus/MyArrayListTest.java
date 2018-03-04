@@ -10,7 +10,7 @@ import java.util.List;
 import static org.junit.Assert.*;
 
 public class MyArrayListTest {
-    List<Integer> myArrayList;
+    private List<Integer> myArrayList;
 
     @Before
     public void beforeTest() {
