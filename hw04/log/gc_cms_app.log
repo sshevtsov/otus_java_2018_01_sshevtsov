@@ -1,0 +1,109 @@
+Java HotSpot(TM) 64-Bit Server VM
+[-Xms64m, -Xmx64m, -XX:+UseConcMarkSweepGC, -verbose:gc, -Xloggc:log/gc_cms, -XX:+PrintGCDateStamps, -XX:+PrintGCDetails, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=10, -XX:GCLogFileSize=100M]
+
+
+[2018-03-09T20:47:46.512] Young Gen GC: - 1 ParNew (from Allocation Failure) 89 milliseconds; start-end times 34217-34306
+
+GCStatistics{youngGCQuantity=1, oldGCQuantity=0, totalYoungGCDuration=89, totalOldGCDuration=0}
+
+[2018-03-09T20:48:23.574] Young Gen GC: - 2 ParNew (from Allocation Failure) 35 milliseconds; start-end times 71429-71464
+
+[2018-03-09T20:48:59.742] Young Gen GC: - 3 ParNew (from Allocation Failure) 37 milliseconds; start-end times 107590-107627
+
+[2018-03-09T20:49:04.907] Old Gen GC: - 1 ConcurrentMarkSweep (from No GC) 5171 milliseconds; start-end times 107628-112799
+
+[2018-03-09T20:49:12.096] Old Gen GC: - 2 ConcurrentMarkSweep (from No GC) 5186 milliseconds; start-end times 114802-119988
+
+GCStatistics{youngGCQuantity=2, oldGCQuantity=2, totalYoungGCDuration=72, totalOldGCDuration=10357}
+
+[2018-03-09T20:49:35.908] Young Gen GC: - 4 ParNew (from Allocation Failure) 41 milliseconds; start-end times 143757-143798
+
+[2018-03-09T20:49:35.968] Old Gen GC: - 3 ConcurrentMarkSweep (from No GC) 62 milliseconds; start-end times 143798-143860
+
+[2018-03-09T20:49:38.050] Old Gen GC: - 4 ConcurrentMarkSweep (from No GC) 80 milliseconds; start-end times 145862-145942
+
+[2018-03-09T20:49:45.242] Old Gen GC: - 5 ConcurrentMarkSweep (from No GC) 5192 milliseconds; start-end times 147942-153134
+
+[2018-03-09T20:49:52.455] Old Gen GC: - 6 ConcurrentMarkSweep (from No GC) 5209 milliseconds; start-end times 155138-160347
+
+[2018-03-09T20:49:59.703] Old Gen GC: - 7 ConcurrentMarkSweep (from No GC) 5245 milliseconds; start-end times 162350-167595
+
+[2018-03-09T20:50:04.054] Young Gen GC: - 5 ParNew (from Allocation Failure) 40 milliseconds; start-end times 171905-171945
+
+[2018-03-09T20:50:06.868] Old Gen GC: - 8 ConcurrentMarkSweep (from No GC) 5162 milliseconds; start-end times 169597-174759
+
+[2018-03-09T20:50:08.949] Old Gen GC: - 9 ConcurrentMarkSweep (from No GC) 79 milliseconds; start-end times 176761-176840
+
+GCStatistics{youngGCQuantity=2, oldGCQuantity=7, totalYoungGCDuration=81, totalOldGCDuration=21029}
+
+[2018-03-09T20:50:13.134] Old Gen GC: - 10 ConcurrentMarkSweep (from No GC) 2181 milliseconds; start-end times 178844-181025
+
+[2018-03-09T20:50:15.225] Old Gen GC: - 11 ConcurrentMarkSweep (from No GC) 86 milliseconds; start-end times 183030-183116
+
+[2018-03-09T20:50:17.315] Old Gen GC: - 12 ConcurrentMarkSweep (from No GC) 86 milliseconds; start-end times 185120-185206
+
+[2018-03-09T20:50:19.402] Old Gen GC: - 13 ConcurrentMarkSweep (from No GC) 85 milliseconds; start-end times 187208-187293
+
+[2018-03-09T20:50:21.487] Old Gen GC: - 14 ConcurrentMarkSweep (from No GC) 84 milliseconds; start-end times 189294-189378
+
+[2018-03-09T20:50:23.567] Old Gen GC: - 15 ConcurrentMarkSweep (from No GC) 78 milliseconds; start-end times 191380-191458
+
+[2018-03-09T20:50:25.655] Old Gen GC: - 16 ConcurrentMarkSweep (from No GC) 83 milliseconds; start-end times 193463-193546
+
+[2018-03-09T20:50:27.747] Old Gen GC: - 17 ConcurrentMarkSweep (from No GC) 86 milliseconds; start-end times 195552-195638
+
+[2018-03-09T20:50:29.834] Old Gen GC: - 18 ConcurrentMarkSweep (from No GC) 84 milliseconds; start-end times 197641-197725
+
+[2018-03-09T20:50:31.930] Old Gen GC: - 19 ConcurrentMarkSweep (from No GC) 95 milliseconds; start-end times 199726-199821
+
+[2018-03-09T20:50:34.020] Old Gen GC: - 20 ConcurrentMarkSweep (from No GC) 86 milliseconds; start-end times 201825-201911
+
+[2018-03-09T20:50:36.114] Old Gen GC: - 21 ConcurrentMarkSweep (from No GC) 93 milliseconds; start-end times 203912-204005
+
+[2018-03-09T20:50:38.208] Old Gen GC: - 22 ConcurrentMarkSweep (from No GC) 90 milliseconds; start-end times 206009-206099
+
+[2018-03-09T20:50:40.305] Old Gen GC: - 23 ConcurrentMarkSweep (from No GC) 94 milliseconds; start-end times 208102-208196
+
+[2018-03-09T20:50:42.395] Old Gen GC: - 24 ConcurrentMarkSweep (from No GC) 88 milliseconds; start-end times 210198-210286
+
+[2018-03-09T20:50:44.483] Old Gen GC: - 25 ConcurrentMarkSweep (from No GC) 84 milliseconds; start-end times 212289-212373
+
+[2018-03-09T20:50:46.583] Old Gen GC: - 26 ConcurrentMarkSweep (from No GC) 95 milliseconds; start-end times 214378-214473
+
+[2018-03-09T20:50:48.681] Old Gen GC: - 27 ConcurrentMarkSweep (from No GC) 98 milliseconds; start-end times 216473-216571
+
+[2018-03-09T20:50:50.774] Old Gen GC: - 28 ConcurrentMarkSweep (from No GC) 90 milliseconds; start-end times 218575-218665
+
+[2018-03-09T20:50:52.363] Young Gen GC: - 6 ParNew (from Allocation Failure) 0 milliseconds; start-end times 220103-220103
+
+[2018-03-09T20:50:52.364] Old Gen GC: - 29 ConcurrentMarkSweep (from Allocation Failure) 147 milliseconds; start-end times 220103-220250
+
+[2018-03-09T20:50:52.537] Old Gen GC: - 30 ConcurrentMarkSweep (from No GC) 178 milliseconds; start-end times 220250-220428
+
+[2018-03-09T20:50:54.635] Old Gen GC: - 31 ConcurrentMarkSweep (from No GC) 99 milliseconds; start-end times 222427-222526
+
+[2018-03-09T20:50:56.749] Old Gen GC: - 32 ConcurrentMarkSweep (from No GC) 105 milliseconds; start-end times 224534-224639
+
+[2018-03-09T20:50:58.874] Old Gen GC: - 33 ConcurrentMarkSweep (from No GC) 122 milliseconds; start-end times 226642-226764
+
+[2018-03-09T20:51:00.983] Old Gen GC: - 34 ConcurrentMarkSweep (from No GC) 105 milliseconds; start-end times 228769-228874
+
+[2018-03-09T20:51:03.091] Old Gen GC: - 35 ConcurrentMarkSweep (from No GC) 104 milliseconds; start-end times 230878-230982
+
+[2018-03-09T20:51:05.204] Old Gen GC: - 36 ConcurrentMarkSweep (from No GC) 111 milliseconds; start-end times 232984-233095
+
+[2018-03-09T20:51:07.318] Old Gen GC: - 37 ConcurrentMarkSweep (from No GC) 110 milliseconds; start-end times 235098-235208
+
+[2018-03-09T20:51:09.438] Old Gen GC: - 38 ConcurrentMarkSweep (from No GC) 116 milliseconds; start-end times 237212-237328
+
+[2018-03-09T20:51:11.553] Old Gen GC: - 39 ConcurrentMarkSweep (from No GC) 112 milliseconds; start-end times 239331-239443
+
+GCStatistics{youngGCQuantity=1, oldGCQuantity=30, totalYoungGCDuration=0, totalOldGCDuration=5075}
+
+[2018-03-09T20:51:13.669] Old Gen GC: - 40 ConcurrentMarkSweep (from No GC) 113 milliseconds; start-end times 241446-241559
+
+[2018-03-09T20:51:15.722] Young Gen GC: - 7 ParNew (from Allocation Failure) 0 milliseconds; start-end times 243319-243319
+
+[2018-03-09T20:51:15.723] Old Gen GC: - 41 ConcurrentMarkSweep (from Allocation Failure) 141 milliseconds; start-end times 243319-243460
+
+[2018-03-09T20:51:15.724] Old Gen GC: - 42 ConcurrentMarkSweep (from Allocation Failure) 143 milliseconds; start-end times 243461-243604

@@ -1,0 +1,31 @@
+Java HotSpot(TM) 64-Bit Server VM
+[-Xms64m, -Xmx64m, -XX:+UseSerialGC, -verbose:gc, -Xloggc:log/gc_serial, -XX:+PrintGCDateStamps, -XX:+PrintGCDetails, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=10, -XX:GCLogFileSize=100M]
+
+
+[2018-03-09T20:39:37.886] Young Gen GC: - 1 Copy (from Allocation Failure) 27 milliseconds; start-end times 34357-34384
+
+GCStatistics{youngGCQuantity=1, oldGCQuantity=0, totalYoungGCDuration=27, totalOldGCDuration=0}
+
+[2018-03-09T20:40:14.747] Young Gen GC: - 2 Copy (from Allocation Failure) 42 milliseconds; start-end times 71509-71551
+
+[2018-03-09T20:40:50.906] Young Gen GC: - 3 Copy (from Allocation Failure) 29 milliseconds; start-end times 107687-107716
+
+GCStatistics{youngGCQuantity=2, oldGCQuantity=0, totalYoungGCDuration=71, totalOldGCDuration=0}
+
+[2018-03-09T20:41:27.058] Young Gen GC: - 4 Copy (from Allocation Failure) 33 milliseconds; start-end times 143835-143868
+
+[2018-03-09T20:41:56.315] Young Gen GC: - 5 Copy (from Allocation Failure) 39 milliseconds; start-end times 172980-173019
+
+[2018-03-09T20:41:56.317] Old Gen GC: - 1 MarkSweepCompact (from Allocation Failure) 107 milliseconds; start-end times 173019-173126
+
+GCStatistics{youngGCQuantity=2, oldGCQuantity=1, totalYoungGCDuration=72, totalOldGCDuration=107}
+
+[2018-03-09T20:42:45.583] Young Gen GC: - 6 Copy (from Allocation Failure) 0 milliseconds; start-end times 222289-222289
+
+[2018-03-09T20:42:45.584] Old Gen GC: - 2 MarkSweepCompact (from Allocation Failure) 104 milliseconds; start-end times 222289-222393
+
+GCStatistics{youngGCQuantity=1, oldGCQuantity=1, totalYoungGCDuration=0, totalOldGCDuration=104}
+
+[2018-03-09T20:43:06.910] Old Gen GC: - 3 MarkSweepCompact (from Allocation Failure) 113 milliseconds; start-end times 243462-243575
+
+[2018-03-09T20:43:06.911] Old Gen GC: - 4 MarkSweepCompact (from Allocation Failure) 145 milliseconds; start-end times 243575-243720

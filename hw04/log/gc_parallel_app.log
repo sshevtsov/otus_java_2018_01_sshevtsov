@@ -1,0 +1,29 @@
+Java HotSpot(TM) 64-Bit Server VM
+[-Xms64m, -Xmx64m, -XX:+UseParallelGC, -verbose:gc, -Xloggc:log/gc_parallel, -XX:+PrintGCDateStamps, -XX:+PrintGCDetails, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=10, -XX:GCLogFileSize=100M]
+
+
+[2018-03-09T20:43:38.310] Young Gen GC: - 1 PS Scavenge (from Allocation Failure) 18 milliseconds; start-end times 31178-31196
+
+GCStatistics{youngGCQuantity=1, oldGCQuantity=0, totalYoungGCDuration=18, totalOldGCDuration=0}
+
+[2018-03-09T20:44:13.358] Young Gen GC: - 2 PS Scavenge (from Allocation Failure) 24 milliseconds; start-end times 66312-66336
+
+[2018-03-09T20:44:50.624] Young Gen GC: - 3 PS Scavenge (from Allocation Failure) 28 milliseconds; start-end times 103577-103605
+
+GCStatistics{youngGCQuantity=2, oldGCQuantity=0, totalYoungGCDuration=52, totalOldGCDuration=0}
+
+[2018-03-09T20:45:23.878] Young Gen GC: - 4 PS Scavenge (from Allocation Failure) 34 milliseconds; start-end times 136824-136858
+
+[2018-03-09T20:45:50.333] Young Gen GC: - 5 PS Scavenge (from Allocation Failure) 41 milliseconds; start-end times 163011-163052
+
+[2018-03-09T20:45:50.334] Old Gen GC: - 1 PS MarkSweep (from Ergonomics) 261 milliseconds; start-end times 163052-163313
+
+GCStatistics{youngGCQuantity=2, oldGCQuantity=1, totalYoungGCDuration=75, totalOldGCDuration=261}
+
+[2018-03-09T20:46:37.044] Old Gen GC: - 2 PS MarkSweep (from Ergonomics) 377 milliseconds; start-end times 209629-210006
+
+GCStatistics{youngGCQuantity=0, oldGCQuantity=1, totalYoungGCDuration=0, totalOldGCDuration=377}
+
+[2018-03-09T20:47:11.986] Old Gen GC: - 3 PS MarkSweep (from Ergonomics) 319 milliseconds; start-end times 244245-244564
+
+[2018-03-09T20:47:11.987] Old Gen GC: - 4 PS MarkSweep (from Allocation Failure) 382 milliseconds; start-end times 244564-244946
